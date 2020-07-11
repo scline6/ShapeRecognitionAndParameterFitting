@@ -39,3 +39,11 @@ OVERVIEW
     decent fit, but could probably be improved. The THETA parameter did not fit well because it 
     belongs to the circular group where 0 degrees is the same as 360 degrees. Replacing THETA 
     with cos(THETA) and sin(THETA) should work better, but I will leave that as a future exercise.
+
+
+
+STEPS
+
+    Please open up the ShapeRecognitionAndParameterFitting notebook and follow the steps.  It will 
+    walk you through loading image data and labels, defining the deep learning model, training the 
+    model, performing inference on test data, and examining the results.
