@@ -8,7 +8,7 @@ OVERVIEW
     I took on the challenge of self-studying deep learning, and this is my first experience. 
     Tensorflow on Colab has been smooth as can be, so that was a pleasant surprise!
 
-    I started out with the MNIST hand-written digits classification tutorial, and had an idea. 
+    After starting out with the MNIST hand-written digits classification tutorial, I had an idea. 
     What if you could convert 2D or 3D geometric models in triangle mesh, image, or volumetric 
     format into Constructive Solid Geometry (CSG)? Typical CSG models are made from polygons, 
     ellipses, extrusions, polyhedra, cylinders, ellipsoids, boolean operations, hulls, and 
@@ -17,8 +17,8 @@ OVERVIEW
     model to recognize the constituents of the CSG model. Then you might be able to send in 
     models that were not originally CSG-generated and the deep learning model would reconstruct 
     them as CSG. It is also possible that the nested structure of boolean operations and hulls 
-    might prevent feedforward nets from being able to reverse engineer CSG models. Recurrent 
-    nets might be required.
+    could prevent feedforward nets from being able to reverse engineer CSG models. Recurrent 
+    nets might be required.  All a learning experience - maybe one day I will find out!
 
     To limit the scope to a reasonable start, I wanted to see if deep learning can classify 2D 
     images that each contains a single shape, either a rectangle and ellipse and estimate the 
