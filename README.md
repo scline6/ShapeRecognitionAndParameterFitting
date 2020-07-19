@@ -30,8 +30,8 @@ OVERVIEW
     5000 images. The images are 50x50 pixels. When scaled to the 0-1 range, each pixel has width 
     of 0.02.
 
-    Classification went well with over 99.9% accuracy, and the only issues were very small shapes 
-    or rectangles with pixelated corners that are hard even for a human to distinguish from an 
+    Classification went well with over 99.9% accuracy.  The only issues were very small 
+    rectangles with pixelated corners that are hard even for a human to distinguish from an 
     ellipse.
 
     The continuous parameters are CENTER_X, CENTER_Y, THETA, MAJOR_DIAM, MINOR_DIAM. Currently, 
